@@ -1,0 +1,64 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 500px;
+    padding: 20px;
+    background-color: #00274C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.52em;
+    color: white;
+    margin: 0 0 35px 0;
+}
+
+label {
+    justify-self: left;
+}
+
+input {
+    justify-self: left;
+}
+
+div {
+    padding: 10px;
+}
+
+#score-counter {
+    font-size: 2em;
+    background-color: white;
+    text-align: center;
+}
+
+#submit-btn {
+    background-color: #FFCB05;
+    font-size: 2em;
+    border-radius: 10px;
+    width: 50%;
+    padding: 20px;
+}
+
+.correct-answer::after{
+    content: " ☑";
+    color: green;
+}
+
+.wrong-answer::after{
+    content: " ☒";
+    color: rgb(239, 11, 11);
+}
