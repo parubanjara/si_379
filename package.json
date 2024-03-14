@@ -1,0 +1,17 @@
+{
+  "name": "si_379",
+  "version": "1.0.0",
+  "description": "Initializing for si_379 project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "Paru",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "vite": "^5.1.6"
+  }
+}
