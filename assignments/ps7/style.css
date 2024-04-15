@@ -1,0 +1,106 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15% 10% 10% 30%;
+}
+
+#add-task{
+    margin-bottom: 30px;
+    padding: 10px 50px 10px 50px;
+    color: white;
+    font-size: 1.5em;
+    background-color:royalblue;
+    border-radius: 4px;
+    border-color: royalblue;
+    margin-top: 10px;
+}
+
+body div .timer{
+    display: none;
+    width: 100px;
+    font-size: 2em;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(239, 78, 78);
+}
+
+#task-list button, #task-list input{
+    font-size: 2em;
+}
+
+#task-list input{
+    border: none;
+    border-top: 1px solid rgb(157, 157, 157);
+    padding-top: 15px;
+    color:blue;
+}
+
+#task-list button{
+    font-size: 3em;
+}
+
+.toggle-btn{
+    border-radius: 5px;
+    background-color:white;
+    color: seagreen;
+    border: 1px solid seagreen;
+}
+
+.toggle-btn:hover{
+    background-color:seagreen;
+    border: 1px solid seagreen;
+    color: white;
+}
+
+.delete-btn {
+    color: red;
+    border: 1px solid red;
+    background-color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.delete-btn:hover {
+    color: white;
+    border: 1px solid red;
+    padding: 3px;
+    background-color: red;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#description, #add-task{
+    font-size: 2em;
+}
+
+#description{
+    color:royalblue;
+    border: none;
+    border-top: 1px solid rgb(157, 157, 157);
+    padding: 10px;
+}
+
+#description:hover{
+    border: 5px solid royalblue;
+}
+
+#description:focus{
+    border: 5px solid royalblue;
+}
+
+#work-session, #break-session{
+    font-size: 1.5em;
+    border: 1px solid rgb(198, 196, 196);
+    border-radius: 4px;
+}
+
+.work-sessions {
+    font-size: 3em;
+    padding: 10px;
+    color:darkgoldenrod;
+}
+
+body label{
+    font-size: 1.2em;
+}
+
