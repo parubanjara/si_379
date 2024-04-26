@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <script src="leaflet-heat.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script>
+  <script src="script.js" defer></script>
+  <title>Final Project</title>
+</head>
+
+<body>
+  <h1> Weather Finder App</h1>    
+  <main>
+    <section id="left-column">
+      <table id="input-table">
+        <tbody>
+          <tr id="temp" class="component">
+            <td><label for="temp">Temperature (°F):</label></td>
+            <td><input type="range" name="temp" /></td>
+            <td class="value">0</td>
+          </tr>
+          <tr id="wind" class="component">
+            <td><label for="wind">Wind (Miles/Hour):</label></td>
+            <td><input type="range" name="wind" /></td>
+            <td class="value">0</td>
+          </tr>
+          <tr id="precip" class="component">
+            <td><label for="precip">Precipitation (Inches/Hour):</label></td>
+            <td><input type="range" name="precip" /></td>
+            <td class="value">0</td>
+          </tr>
+          <tr id="snow" class="component">
+            <td><label for="snow">Snow Fall (Inches/Hour):</label></td>
+            <td><input type="range" name="snow" /></td>
+            <td class="value">0</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>The values are annual averages.</p>
+      <button id="marker-button">Show / Hide Markers</button>
+      <button id="heatmap-button" selected>Show / Hide Heatmap</button>
+    </section>
+    <section id="right-column">
+      <div id="map"></div>
+    </section>
+  </main>
+</body>
+</html>

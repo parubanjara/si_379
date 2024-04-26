@@ -1,0 +1,95 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+#right-column {
+    flex-grow: 1;
+    padding: 0em 1em 1em 1em;
+}
+
+#left-column{
+    margin: 0px 0px 0px 10px;
+}
+
+#input-table {
+    white-space: nowrap;
+}
+
+#input-table td {
+    padding: 1em;
+    background-color:rgb(225, 225, 224);
+}
+
+#input-table thead tr {
+    text-align: center;
+}
+
+.value {
+    min-width: 2em;
+}
+
+#map {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+p{
+    font-size: smaller;
+    color: grey;
+    margin: 3px 0px 5px 0px;
+}
+
+#marker-button{
+    background-color: rgb(60, 124, 244);
+    border: 5px solid rgb(60, 124, 244);
+    font-size: 1em;
+    color: white;
+    margin: 25px 5px 0px 30px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#marker-button:hover{
+    background-color: rgb(225, 113, 34);
+    border: 5px solid rgb(225, 113, 34);
+}
+
+#heatmap-button{
+    background-color: rgb(60, 124, 244);
+    border: 5px solid rgb(60, 124, 244);
+    font-size: 1em;
+    color: white;
+    margin: 25px 25px 0px 5px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#heatmap-button:hover{
+    background-color: rgb(225, 113, 34);
+    border: 5px solid rgb(225, 113, 34);
+}
